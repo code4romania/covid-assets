@@ -4,6 +4,7 @@
 body {
   max-width: 800px;
   margin: auto;
+  vertical-align: middle;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,4 +22,22 @@ body {
   font-size: 16px;
   border-radius: 4px;
   padding: 16px;
+}
+
+.back-button {
+  background-color: #ffde59;
+  border: none;
+  color: #1C1080;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.gray-img {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
 }
